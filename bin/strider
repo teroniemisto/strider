@@ -211,6 +211,7 @@ function runTest(email, password, project, branch, message) {
 }
 
 var start = function(extpath){
+  process.env['DB_URI'] = 'mongodb://admin:admin@10.0.113.75:49297/strider;
   var common = require('../lib/common');
   var path = require('path');
   var main = require('../main');
