@@ -77,7 +77,7 @@
   },
   "scripts": {
     "test": "make test",
-    "start": "bin/strider",
+    "start": "node bin/strider",
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
