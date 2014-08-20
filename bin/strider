@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
+process.env['DB_URI'] = 'mongodb://user:password@10.0.113.75:49194/strider';
+
 function addUser(email, password, admin) {
+  
   var Step = require('step')
     , fs = require('fs')
     , readline = require('readline')
