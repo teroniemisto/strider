@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 process.env['DB_URI'] = 'mongodb://user:password@10.0.113.75:49194/strider';
+process.env['SERVER_NAME'] = 'http://mar-eu-1-fddvsha0.qtcloudapp.com';
 
 function addUser(email, password, admin) {
   

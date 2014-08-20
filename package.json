@@ -78,7 +78,6 @@
   "scripts": {
     "test": "make test",
     "start": "node bin/strider",
-    "postinstall": "node bin/strider addUser -l admin@strider.com -p password -a true",
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
