@@ -2,6 +2,9 @@
 
 process.env['DB_URI'] = 'mongodb://user:password@10.0.113.75:49194/strider';
 process.env['SERVER_NAME'] = 'http://mar-eu-1-fddvsha0.qtcloudapp.com';
+process.env['PLUGIN_GITHUB_APP_ID'] = 'b4a79a80ce08702090f3';
+process.env['PLUGIN_GITHUB_APP_SECRET'] = '7cd30c4e3d784af8dc5597b64e68b236be2e5ecc';
+
 
 function addUser(email, password, admin) {
   
