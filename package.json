@@ -77,7 +77,8 @@
   },
   "scripts": {
     "test": "make test",
-    "start": "node bin/strider --db_uri=mongodb://user:password@10.0.113.75:49194/strider addUser -l admin@strider.com -p password -a",
+    "start": "node bin/strider",
+    "postinstall": "node bin/strider addUser -l admin@strider.com -p password -a true"
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
